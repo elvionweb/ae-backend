@@ -23,7 +23,7 @@ const rsvpSchema = new mongoose.Schema(
     },
     phone: {
       type: String,
-      required: [true, "Phone is required"],
+      required: [true, "Phone is required."],
       trim: true,
       minlength: 5,
       maxlength: 20,
